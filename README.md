@@ -31,7 +31,7 @@ Here are all possible hugo build args listed.
 
 | ARG | Description |
 |-----------|-------------|
-| `HUGO_VERSION` | Sets the used hugo version during the build. Defaults to `0.17` |
+| `HUGO_VERSION` | Sets the used hugo version during the build. Defaults to `0.18` |
 | `HUGO_DOWNLOAD_URL` | Sets the hugo download url during the build. Defaults to `https://github.com/spf13/hugo/releases/download/v$HUGO_VERSION/hugo_"$HUGO_VERSION"_Linux-64bit.tar.gz"`  |
 | `HUGO_DOWNLOAD_FILE_NAME` | Sets the hugo filename during the build. Defaults to `hugo.tar.gz` |
 

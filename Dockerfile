@@ -1,6 +1,6 @@
 FROM alpine:3.4
 
-ARG HUGO_VERSION=0.17
+ARG HUGO_VERSION=0.18
 ARG HUGO_DOWNLOAD_URL="https://github.com/spf13/hugo/releases/download/v$HUGO_VERSION/hugo_"$HUGO_VERSION"_Linux-64bit.tar.gz"
 ARG HUGO_DOWNLOAD_FILE_NAME=hugo.tar.gz
 ARG BUILD_DATE
