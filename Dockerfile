@@ -6,8 +6,8 @@ ARG HUGO_DOWNLOAD_FILE_NAME=hugo.tar.gz
 ARG BUILD_DATE
 ARG VCS_REF
 
-LABEL   maintainer niclas@mietz.io \
-    org.label-schema.build-date=$BUILD_DATE \
+LABEL maintainer niclas@mietz.io
+LABEL org.label-schema.build-date=$BUILD_DATE \
     org.label-schema.docker.dockerfile="/Dockerfile" \
     org.label-schema.license="MIT" \
     org.label-schema.name="Docker Hugo" \
