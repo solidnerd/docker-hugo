@@ -31,8 +31,8 @@ RUN apk add --no-cache  git curl tar \
     &&  tar xvz -C /tmp  -f "$HUGO_DOWNLOAD_FILE_NAME"  \
     &&  mv /tmp/hugo /usr/local/bin/hugo \
     &&  apk del curl tar \
-    &&  rm -rf /tmp/hugo_${HUGO_VERSION}_linux_amd64/ \
-    &&  rm -fr /var/cache/apk/*
+    &&  rm -rf /tmp/* \
+    &&  rm -rf /var/cache/apk/*
 
 USER $HUGO_USER
 
