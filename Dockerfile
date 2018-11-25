@@ -26,7 +26,7 @@ RUN addgroup -S $HUGO_USER -g ${HUGO_GID} \
         -u ${HUGO_UID} \
         $HUGO_USER
 
-RUN apk add --no-cache curl tar \
+RUN apk add --no-cache  git curl tar \
     &&  curl -L "$HUGO_DOWNLOAD_URL" -o "$HUGO_DOWNLOAD_FILE_NAME" \
     &&  tar xvz -C /tmp  -f "$HUGO_DOWNLOAD_FILE_NAME"  \
     &&  mv /tmp/hugo /usr/local/bin/hugo \
