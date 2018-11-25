@@ -6,12 +6,14 @@ ARG HUGO_DOWNLOAD_FILE_NAME=hugo.tar.gz
 ARG BUILD_DATE
 ARG VCS_REF
 
-
+LABEL maintainer niclas@mietz.io
 LABEL org.label-schema.build-date=$BUILD_DATE \
     org.label-schema.docker.dockerfile="/Dockerfile" \
     org.label-schema.license="MIT" \
     org.label-schema.name="Docker Hugo" \
+    org.label-schema.url="https://github.com/solidnerd/docker-hugo/" \
     org.label-schema.vcs-ref=$VCS_REF \
+    org.label-schema.vcs-url="https://github.com/solidnerd/docker-hugo.git" \
     org.label-schema.vcs-type="Git"
 
 ENV HUGO_USER=hugo \
