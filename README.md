@@ -16,7 +16,7 @@ docker run -it --rm -v $(pwd):/hugo solidnerd/hugo
 ## Develop your Website
 
 ```bash
-docker run -it --rm -v $(pwd):/hugo -p 1313:1313 solidnerd/hugo hugo server --bind 0.0.0.0
+docker run -it --rm -v $(pwd):/hugo -p 1313:1313 solidnerd/hugo server --bind 0.0.0.0
 ```
 
 # Build image
